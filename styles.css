@@ -1,0 +1,55 @@
+body {
+  background-color: #9bc0ba;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.avatar {
+  max-width: 200px;
+  aspect-ratio: 1;
+}
+
+.header__title {
+  font-size: 27px;
+}
+.header__subtitle {
+  color: rgb(5, 80, 84);
+}
+
+main {
+  border: 1px solid rgb(40, 40, 40);
+  padding: 10px;
+}
+
+.skills ul {
+  list-style: none;
+}
+
+.gallery__img {
+  max-width: 300px;
+}
+
+.separator {
+  width: 50%;
+  height: 3px;
+  background-color: rgb(111, 111, 173);
+}
+
+.video {
+  width: 800px;
+  height: 450px;
+  border: none;
+}
+
+.ed__table {
+  border-collapse: collapse;
+}
+
+.ed__table th,
+.ed__table td {
+  border: 1px solid black;
+  padding: 5px;
+}
